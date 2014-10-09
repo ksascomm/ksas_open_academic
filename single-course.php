@@ -6,7 +6,7 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<h5><?php the_title(); ?>
 				<?php if ( get_post_meta($post->ID, 'ecpt_credit', true) ) : ?>
-					&nbsp;(<?php echo get_post_meta($post->ID, 'ecpt_credits', true); ?> Credits)
+					&nbsp;(<?php echo get_post_meta($post->ID, 'ecpt_credit', true); ?> Credits)
 				<?php endif; ?></h5>
 				<?php the_content()?>
 				<?php if ( get_post_meta($post->ID, 'ecpt_prereqs', true) ) : ?>
