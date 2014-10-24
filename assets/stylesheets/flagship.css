@@ -1880,6 +1880,12 @@ h6.pub {
 
 /*******HOMEPAGE SLIDER ******/
 
+#slider { background: url(spinner.gif) center center #f4f4f4 no-repeat; height: 300px; }
+#slider img { display: none; }
+
+#slider.orbit { background: none; }
+#slider.orbit img { display: block; }
+
 .slider-break {
 	background: rgba(0,0,0,.2);
 	margin-top: -19px;
